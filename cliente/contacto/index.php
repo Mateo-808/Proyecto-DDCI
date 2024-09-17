@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../logo_16x16.ico">
+    <link rel="icon" href="../../logo_32x32.png">
+    <link rel="icon" href="../../logo_48x48.png">
+    <link rel="icon" href="../../logo_96x96.png">
+    <link rel="icon" href="../../logo_144x144.png">
+    <title>Contacto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="encabezado">
+            <img src="../../logo.png" alt="Logo" class="logo">
+            <h1>Desarrollo Del Conocimiento Institucional</h1>
+            <h2>"Construyendo una comunidad de aprendizaje para el futuro"</h2>
+        </header>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__li">
+                    <a href="../inicio/index.php" class="navegacion__link inicio">Inicio</a>
+                </li>
+                <li class="navegacion__li">
+                    <a href="../sobre_nosotros/index.php" class="navegacion__link">Sobre nosotros</a>
+                </li>
+                <li class="navegacion__li">
+                    <a href="../servicios/index.php" class="navegacion__link">Servicios</a>
+                </li>
+                <li class="navegacion__li">
+                    <a href="../contacto/index.php" class="navegacion__link contacto">Contacto</a>
+                </li>
+            </ul>
+            <div class="navegacion__icon">
+                <a href="../../usuario/index.php" class="navegacion__link admin-login">
+                    <img src="../../usuario.png" alt="Perfil" class="admin-icon">
+                </a>
+            </div>
+        </nav>
+
+        <h2 class="title-body">Contacto</h2>
+
+        <section class="content">
+            <p>¡Hola estudiantes! Bienvenidos a Desarrollo de Conocimiento Institucional .DDCI., un espacio en el que podrán adquirir una formación integral en el área de organización educativa.</p>
+            <p>El plan de trabajo en los grados noveno hasta once tiene como objetivo principal brindar a los estudiantes una formación integral en el área de desarrollo de software, a través de la adquisición de conocimientos, habilidades y actitudes necesarias para desempeñarse en este campo de manera exitosa.</p>
+
+            <form action="mailto:ieca.mateorestrepo@gmail.com" method="post" enctype="text/plain">
+                <h2 class="title">FORMULARIO DE CONTACTO</h2>
+                <fieldset>
+                    <legend>INFORMACIÓN BÁSICA</legend>
+
+                    <div class="form_input">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div class="form_input">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form_input">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" name="asunto" placeholder="El asunto de tu mensaje" required>
+                    </div>
+
+                    <div class="form_input">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Deja tu mensaje..." rows="8" required></textarea>
+                    </div>
+
+                    <div class="form_input">
+                        <label for="telefono">Número de Teléfono (opcional)</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono">
+                    </div>
+
+                    <div class="form_input">
+                        <label for="direccion">Dirección (opcional)</label>
+                        <input type="text" id="direccion" name="direccion" placeholder="Tu dirección">
+                    </div>
+                </fieldset>
+
+                <div class="form_input">
+                    <label for="tipo_usuario">Tipo de usuario</label>
+                    <select id="tipo_usuario" name="tipo_usuario">
+                        <option value="seguidor">Seguidor/a</option>
+                        <option value="empresa">Empresa</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </div>
+
+                <div class="form_input">
+                    <label for="referente">Referente</label>
+                    <input list="referente" id="referente" name="referente">
+                    <datalist id="referente">
+                        <option value="Mateo Restrepo">
+                        <option value="Empresa">
+                        <option value="Alguien cercano a ti">
+                    </datalist>
+                </div>
+
+                <div class="form_input">
+                    <label for="terminos">
+                        <input type="checkbox" id="terminos" name="terminos" class="checkbox" required>
+                        Acepto los términos y condiciones
+                    </label>
+                </div>
+
+                <div class="form_input">
+                    <input type="submit" value="Enviar">
+                </div>
+        </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Desarrollo del Conocimiento Institucional (DDCI). Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

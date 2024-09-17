@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../logo_16x16.ico">
+    <link rel="icon" href="../../logo_32x32.png">
+    <link rel="icon" href="../../logo_48x48.png">
+    <link rel="icon" href="../../logo_96x96.png">
+    <link rel="icon" href="../../logo_144x144.png">
+    <title>Servicios</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="encabezado">
+            <img src="../../logo.png" alt="Logo" class="logo">
+            <h1>Desarrollo Del Conocimiento Institucional</h1>
+            <h2>"Construyendo una comunidad de aprendizaje para el futuro"</h2>
+        </header>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__li">
+                    <a href="../inicio/index.php" class="navegacion__link">Inicio</a>
+                </li>
+                <li class="navegacion__li">
+                    <a href="../sobre_nosotros/index.php" class="navegacion__link">Sobre nosotros</a>
+                </li>
+                <li class="navegacion__li">
+                    <a href="index.php" class="navegacion__link servicios">Servicios</a>
+                </li>
+                <li class="navegacion__li">
+                    <a href="../contacto/index.php" class="navegacion__link">Contacto</a>
+                </li>
+            </ul>
+            <div class="navegacion__icon">
+                <a href="../../usuario/index.php" class="navegacion__link admin-login">
+                    <img src="../../usuario.png" alt="Perfil" class="admin-icon">
+                </a>
+            </div>
+        </nav>
+
+        <h2 class="title-body">Servicios</h2>
+
+        <section class="content">
+            <article class="article">
+                <h3>Educación Integral</h3>
+                <p>
+                    Ofrecemos un programa integral de educación que abarca desde los grados noveno hasta el undécimo, con un enfoque en la formación académica sólida y preparación para el futuro.
+                </p>
+            </article>
+
+            <article class="article">
+                <h3>Media Técnica</h3>
+                <p>
+                    Nuestro programa de media técnica en auxiliar en desarrollo de software proporciona a los estudiantes las herramientas necesarias para entrar en el campo tecnológico con habilidades prácticas.
+                </p>
+            </article>
+
+            <article class="article">
+                <h3>Desarrollo de Competencias</h3>
+                <p>
+                    Enfocamos nuestra enseñanza en el desarrollo de competencias clave como el pensamiento crítico, la resolución de problemas y la comunicación efectiva.
+                </p>
+            </article>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Desarrollo del Conocimiento Institucional (DDCI). Todos los derechos reservados.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
