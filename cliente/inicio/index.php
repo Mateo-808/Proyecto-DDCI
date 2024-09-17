@@ -17,7 +17,7 @@
         <header class="encabezado">
             <img src="../../logo.png" alt="Logo" class="logo">
             <h1>Desarrollo Del Conocimiento Institucional</h1>
-            <h2>"Construyendo una comunidad de aprendizaje para el futuro"</h2>
+            <h2>"Construyendo una comunidad de aprendizaje para el futur"</h2>
         </header>
         <nav class="navegacion">
             <ul class="navegacion__lista">
