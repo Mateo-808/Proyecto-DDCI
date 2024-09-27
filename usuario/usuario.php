@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: ../administrador/iniciar_sesion/index.php");
         exit();
     } elseif ($usuario == "cliente") {
-        header("Location: ../cliente/inicio/index.php");
+        header("Location: ../index.html");
         exit();
     }
 }
