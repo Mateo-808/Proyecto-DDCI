@@ -12,3 +12,4 @@ document.querySelectorAll('.article, .article1, h2').forEach((el) => {
     el.classList.add('hidden');
     observer.observe(el);
 });
+    

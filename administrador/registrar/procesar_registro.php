@@ -1,8 +1,8 @@
 <?php
-$servidor = "localhost";
-$usuario = "root";
-$contrasena = "";
-$basedatos = "admin";
+$servidor = "sql103.infinityfree.com";
+$usuario = "if0_37398020";
+$contrasena = "RtOIA6gN36zf";
+$basedatos = "if0_37398020_XXX";
 
 $conexion = new mysqli($servidor, $usuario, $contrasena, $basedatos);
 
