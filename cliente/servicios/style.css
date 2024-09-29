@@ -157,6 +157,10 @@ footer {
         flex-direction: column;
     }
 
+    .navegacion__li {
+        margin: 3px 0;
+    }
+
     .logo {
         height: 80px;
     }
