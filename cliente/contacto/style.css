@@ -171,11 +171,11 @@ form legend {
 }
 
 footer {
+    font-size: 16px;
     text-align: center;
     padding: 10px;
     background-color: #1D222F;
     color: #fff;
-    font-size: 0.8rem;
     margin-top: 20px;
 }
 
