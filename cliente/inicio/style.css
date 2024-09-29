@@ -39,15 +39,15 @@ body {
     top: 0;
     z-index: 10;
     display: flex;
-    justify-content: space-between; /* Espacia los elementos en los extremos */
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 0; /* Ajusta los márgenes para mayor compactación */
+    padding: 10px 0;
     flex-direction: column;
 }
 
 .navegacion__lista {
     display: flex;
-    justify-content: flex-start; /* Alinea la lista a la izquierda */
+    justify-content: flex-start;
     align-items: center;
     padding: 10px 0;
     list-style: none;
@@ -59,7 +59,7 @@ body {
 }
 
 .navegacion__icon {
-    margin: auto; /* Empuja el ícono hacia la derecha */
+    margin: auto;
 }
 
 .navegacion__link {
