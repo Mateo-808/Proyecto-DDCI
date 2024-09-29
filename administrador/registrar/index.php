@@ -8,7 +8,7 @@
     <link rel="icon" href="../../logo_48x48.png">
     <link rel="icon" href="../../logo_96x96.png">
     <link rel="icon" href="../../logo_144x144.png">
-    <title>Registrar</title>
+    <title>Registrar - DDCI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
