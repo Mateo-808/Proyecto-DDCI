@@ -41,7 +41,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 10px 0;
+    flex-direction: column;
 }
 
 .navegacion__lista {
@@ -58,7 +59,7 @@ body {
 }
 
 .navegacion__icon {
-    margin-left: auto;
+    margin: auto;
 }
 
 .navegacion__link {
@@ -101,7 +102,7 @@ body {
 }
 
 .content {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -110,6 +111,16 @@ body {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 100%;
 }
 
 .contact-form {
@@ -136,9 +147,7 @@ form legend {
     margin-bottom: 5px;
 }
 
-.form_input input,
-.form_input textarea,
-.form_input select {
+.form_input input, .form_input textarea, .form_input select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -161,6 +170,15 @@ form legend {
     margin-right: 10px;
 }
 
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1D222F;
+    color: #fff;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
 .hidden {
     opacity: 0;
     transform: translateY(20px);
@@ -172,18 +190,22 @@ form legend {
     transform: translateY(0);
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #1D222F;
-    color: #fff;
-    margin-top: 20px;
-}
-
 @media (max-width: 768px) {
     .encabezado {
-        height: 30vh;
+        height: 40vh;
         font-size: 16px;
+    }
+
+    .logo {
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
     }
 
     .title-body {
@@ -198,9 +220,7 @@ footer {
         padding: 10px;
     }
 
-    .form_input input,
-    .form_input textarea,
-    .form_input select {
+    .form_input input, .form_input textarea, .form_input select {
         font-size: 14px;
     }
 
