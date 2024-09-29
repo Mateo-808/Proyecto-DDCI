@@ -13,7 +13,6 @@ if ($conexion->connect_error) {
 $usu = $_POST['usuario'];
 $con = $_POST['contrasena'];
 
-// Preparar la consulta
 $stmt = $conexion->prepare('SELECT * FROM regis WHERE usuario = ? AND contrasena = ?');
 $stmt->bind_param("ss", $usu, $con);
 
