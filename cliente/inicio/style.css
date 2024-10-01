@@ -79,6 +79,10 @@ body {
     transition: width 0.3s;
 }
 
+.inicio {
+    border-bottom: 2px solid #fff                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
+}
+
 .navegacion__link:hover::after {
     width: 100%;
 }
@@ -145,6 +149,18 @@ footer {
 .show {
     opacity: 1;
     transform: translateY(0);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2563eb;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #113686;
 }
 
 @media (max-width: 768px) {
