@@ -13,7 +13,7 @@ body {
 
 .encabezado {
     text-align: center;
-    background-image: url(../../fondo.jpeg);
+    background-image: url(../imgs/fondo.jpeg);
     height: 100vh;
     width: 100vw;
     background-position: center;

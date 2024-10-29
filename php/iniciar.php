@@ -1,8 +1,8 @@
 <?php
-$servidor = 'sql103.infinityfree.com';
-$usuario = 'if0_37398020';
-$contrasena = 'RtOIA6gN36zf';
-$basedatos = 'if0_37398020_admin';
+$servidor = 'localhost';
+$usuario = 'root';
+$contrasena = '';
+$basedatos = 'admin';
 
 $conexion = new mysqli($servidor, $usuario, $contrasena, $basedatos);
 
@@ -20,10 +20,10 @@ $stmt->execute();
 $resultado = $stmt->get_result();
 
 if ($resultado->num_rows > 0) {
-    header('Location: ../../index.html');
+    header('Location: ../index.html');
     exit;
 } else {
-    header('Location: index.php?error=Usuario%20o%20contraseña%20incorrectos.%20Inténtalo%20de%20nuevo.');
+    header('Location: iniciar.php?error=Usuario%20o%20contraseña%20incorrectos.%20Inténtalo%20de%20nuevo.');
     exit;
 }
 
