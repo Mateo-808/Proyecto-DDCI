@@ -11,16 +11,17 @@ if ($conexion->connect_error) {
 }
 
 $usu = $_POST['usuario'];
+$email = $_POST['email'];
 $con = $_POST['contrasena'];
 $confirmar_contrasena = $_POST['confirmar_contrasena'];
 
 if ($con !== $confirmar_contrasena) {
-    header('Location: registrar.php?error=Las%20contraseñas%20no%20coinciden.');
+    header('Location: ../pages/registrar.php?error=Las%20contraseñas%20no%20coinciden.');
     exit();
 }
 
-$stmt = $conexion->prepare('INSERT INTO regis (usuario, contrasena) VALUES (?, ?)');
-$stmt->bind_param('ss', $usu, $con);
+$stmt = $conexion->prepare('INSERT INTO regis (usuario, email, contrasena) VALUES (?, ?, ?)');
+$stmt->bind_param('sss', $usu, $email, $con);
 
 if ($stmt->execute()) {
     header('Location: ../pages/iniciar.php');

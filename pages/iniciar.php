@@ -25,7 +25,7 @@
                 <p class="error-message"><?php echo htmlspecialchars($_GET['error']); ?></p>
             <?php endif; ?>
             <form action="../php/iniciar.php" method="post" class="login-form">
-                <input type="text" placeholder="Escriba su usuario" required name="usuario">
+                <input type="email" placeholder="Escriba su correo electrónico" required name="email">
                 <input type="password" placeholder="Escriba su contraseña" required name="contrasena">
                 <button type="submit" class="button">Iniciar Sesión</button>
                 <a href="registrar.php" class="register-link">¿No tienes cuenta? Regístrate aquí</a>

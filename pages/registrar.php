@@ -26,6 +26,7 @@
             <?php endif; ?>
             <form action="../php/registrar.php" method="post" class="register-form">
                 <input type="text" placeholder="Nombre de usuario" required name="usuario">
+                <input type="email" placeholder="Correo electrónico" required name="email">
                 <input type="password" placeholder="Contraseña" required name="contrasena">
                 <input type="password" placeholder="Confirmar contraseña" required name="confirmar_contrasena">
                 <button type="submit" class="button">Registrar</button>
