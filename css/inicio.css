@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
 }
 
+.container {
+    padding-top: 80px;
+}
+
 .encabezado {
     text-align: center;
     background-image: url(../imgs/fondo.jpeg);
@@ -25,6 +29,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -80px;
 }
 
 .logo {
@@ -33,33 +38,31 @@ body {
 }
 
 .navegacion {
-    background-color: #1D222F;
+    width: 100%;
+    background-color: rgba(29, 34, 47, 0.8);
+    backdrop-filter: blur(1px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 10;
+    left: 0;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
-    flex-direction: column;
+    padding: 10px 20px;
 }
 
 .navegacion__lista {
     display: flex;
-    justify-content: flex-start;
+    gap: 20px;
     align-items: center;
-    padding: 10px 0;
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
 .navegacion__li {
-    margin: 0 10px;
-}
-
-.navegacion__icon {
-    margin: auto;
+    margin: 0;
 }
 
 .navegacion__link {
@@ -190,14 +193,22 @@ footer {
         font-size: 16px;
     }
 
-    .navegacion__lista {
+    .navegacion {
         flex-direction: column;
+        padding: 10px;
     }
 
-    .navegacion__li {
-        margin: 3px 0;
+    .navegacion__lista {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        margin-bottom: 10px;
     }
-    
+
+    .admin-login {
+        margin-top: 10px;
+    }
+
     .logo {
         height: 80px;
     }
