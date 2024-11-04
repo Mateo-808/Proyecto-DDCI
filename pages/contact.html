@@ -26,7 +26,7 @@
                     <a href="services.html#servicios" class="navegacion__link">Servicios</a>
                 </li>
                 <li class="navegacion__li">
-                    <a href="#contacto" class="navegacion__link contacto" id="contacto">Contacto</a>
+                    <a href="#contacto" class="navegacion__link contacto">Ayuda</a>
                 </li>
             </ul>
             <a href="user.html" class="navegacion__link admin-login">
@@ -41,17 +41,22 @@
             <h2>"Construyendo una comunidad de aprendizaje para el futuro"</h2>
         </header>
 
-        <h2 class="title-body">Contacto</h2>
+        <h2 class="title-body" id="contacto">Contacto</h2>
 
         <section class="content">
             <form action="mailto:soporteddci@gmail.com" method="post" enctype="text/plain">
-                <p>¡Hola estudiantes! Bienvenidos a Desarrollo de Conocimiento Institucional .DDCI., un espacio en el que podrán adquirir una formación integral en el área de organización educativa.</p>
-
-                <p>El plan de trabajo en los grados noveno hasta once tiene como objetivo principal brindar a los estudiantes una formación integral en el área de desarrollo de software, a través de la adquisición de conocimientos, habilidades y actitudes necesarias para desempeñarse en este campo de manera exitosa.</p>
                 
                 <h2 class="title">FORMULARIO DE CONTACTO</h2>
                 <fieldset>
                     <legend>INFORMACIÓN BÁSICA</legend>
+
+                    <div class="form_input">
+                        <label for="tipo_usuario">Tipo de usuario</label>
+                        <select id="tipo_usuario" name="tipo_usuario">
+                            <option value="cliente">Cliente</option>
+                            <option value="administrador">Administrador</option>
+                        </select>
+                    </div>
 
                     <div class="form_input">
                         <label for="nombre">Nombre completo</label>
@@ -72,36 +77,6 @@
                         <label for="mensaje">Mensaje</label>
                         <textarea id="mensaje" name="mensaje" placeholder="Deja tu mensaje..." rows="8" required></textarea>
                     </div>
-
-                    <div class="form_input">
-                        <label for="telefono">Número de Teléfono (opcional)</label>
-                        <input type="tel" id="telefono" name="telefono" placeholder="Tu número de teléfono">
-                    </div>
-
-                    <div class="form_input">
-                        <label for="direccion">Dirección (opcional)</label>
-                        <input type="text" id="direccion" name="direccion" placeholder="Tu dirección">
-                    </div>
-                </fieldset>
-
-                <div class="form_input">
-                    <label for="tipo_usuario">Tipo de usuario</label>
-                    <select id="tipo_usuario" name="tipo_usuario">
-                        <option value="seguidor">Seguidor/a</option>
-                        <option value="empresa">Empresa</option>
-                        <option value="otros">Otros</option>
-                    </select>
-                </div>
-
-                <div class="form_input">
-                    <label for="referente">Referente</label>
-                    <input list="referente" id="referente" name="referente">
-                    <datalist id="referente">
-                        <option value="Mateo Restrepo">
-                        <option value="Empresa">
-                        <option value="Alguien cercano a ti">
-                    </datalist>
-                </div>
 
                 <div class="form_input">
                     <label for="terminos">
