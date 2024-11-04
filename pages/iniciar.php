@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <a href="../index.html">
+        <a href="../index.php">
             <img src="../imgs/logo.png" alt="Logo" class="logo">
         </a>
         <h1>Desarrollo del Conocimiento Institucional (DDCI)</h1>
@@ -32,8 +32,6 @@
             </form>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Desarrollo del Conocimiento Institucional (DDCI). Todos los derechos reservados.</p>
-    </footer>
+    <footer>&copy; 2024 Desarrollo del Conocimiento Institucional (DDCI). Todos los derechos reservados.</footer>
 </body>
 </html>

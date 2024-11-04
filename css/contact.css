@@ -93,6 +93,9 @@ body {
 .admin-login {
     display: flex;
     align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .admin-icon {
@@ -102,6 +105,7 @@ body {
     border: 1px solid #fff;
     padding: 2px;
     text-align: center;
+    margin-left: 5px;
 }
 
 .title-body {

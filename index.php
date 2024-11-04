@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,24 +21,28 @@
         <nav class="navegacion">
             <ul class="navegacion__lista">
                 <li class="navegacion__li">
-                    <a href="index.html#inicio" class="navegacion__link inicio">Inicio</a>
+                    <a href="index.php#inicio" class="navegacion__link inicio">Inicio</a>
                 </li>
                 <li class="navegacion__li">
-                    <a href="pages/nosotros.html#sobre_nosotros" class="navegacion__link">Sobre nosotros</a>
+                    <a href="pages/nosotros.php#sobre_nosotros" class="navegacion__link">Sobre nosotros</a>
                 </li>
                 <li class="navegacion__li">
-                    <a href="pages/services.html#servicios" class="navegacion__link">Servicios</a>
+                    <a href="pages/services.php#servicios" class="navegacion__link">Servicios</a>
                 </li>
                 <li class="navegacion__li">
-                    <a href="pages/contact.html#contacto" class="navegacion__link">Ayuda</a>
+                    <a href="pages/contact.php#contacto" class="navegacion__link">Contacto</a>
                 </li>
             </ul>
-            <a href="pages/perfil_admin.php" class="navegacion__link admin-login">
-                <img src="imgs/user.svg" alt="Perfil" class="admin-icon">
+            <a href="pages/perfil_admin.php" class="admin-login">
+                <?php if (isset($_SESSION['usuario'])): ?>
+                    <span class="user-name"><?php echo htmlspecialchars($_SESSION['usuario']); ?></span>
+                <?php endif; ?>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="admin-icon"><path d="M14 14.252V16.3414C13.3744 16.1203 12.7013 16 12 16C8.68629 16 6 18.6863 6 22H4C4 17.5817 7.58172 14 12 14C12.6906 14 13.3608 14.0875 14 14.252ZM12 13C8.685 13 6 10.315 6 7C6 3.685 8.685 1 12 1C15.315 1 18 3.685 18 7C18 10.315 15.315 13 12 13ZM12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11ZM18 17V14H20V17H23V19H20V22H18V19H15V17H18Z"></path></svg>
             </a>
         </nav>
+
         <header class="encabezado">
-            <a href="index.html">
+            <a href="index.php">
                 <img src="imgs/logo.png" alt="Logo" class="logo">
             </a>
             <h1>Desarrollo Del Conocimiento Institucional (DDCI)</h1>
@@ -57,7 +65,7 @@
                     <h3>Sobre nosotros</h3>
                     <p>
                         En la educación, es importante tener un plan de trabajo claro y definido, específicamente para el grado noveno, décimo, undécimo y para la media técnica auxiliar en desarrollo de software. Esto no sólo permite una mejor organización del proceso de enseñanza y aprendizaje, sino que también garantiza que los estudiantes adquieran los conocimientos y habilidades necesarias para su futuro académico y laboral.
-                        <a href="pages/nosotros.html#sobre_nosotros">Leer más...</a>
+                        <a href="pages/nosotros.php#sobre_nosotros">Leer más...</a>
                     </p>
                 </div>
             </article>
@@ -67,7 +75,7 @@
                     <h3>Servicios</h3>
                     <p>
                         El plan de trabajo en los grados noveno, décimo y undécimo está enfocado en el desarrollo de habilidades y conocimientos que preparen a nuestros estudiantes para su futuro. A través del programa de Desarrollo de Conocimiento Institucional (DDCI), buscamos fortalecer competencias como el pensamiento crítico, la resolución de problemas y la comunicación efectiva.
-                        <a href="pages/services.html#servicios">Leer más...</a>
+                        <a href="pages/services.php#servicios">Leer más...</a>
                     </p>
                 </div>
             </article>
@@ -75,14 +83,12 @@
             <article class="article article3">
                 <div class="article__content3">
                     <h2>¿Necesitas hablar con nosotros?</h2>
-                    <a href="pages/contact.html#contacto">Ponte en contacto</a>
+                    <a href="pages/contact.php#contacto">Ponte en contacto</a>
                 </div>
             </article>
         </section>
 
-        <footer>
-            <p>&copy; 2024 Desarrollo del Conocimiento Institucional (DDCI). Todos los derechos reservados.</p>
-        </footer>
+        <footer>&copy; 2024 Desarrollo del Conocimiento Institucional (DDCI). Todos los derechos reservados.</footer>
     </div>
     <script src="js/inicio.js" defer></script>
 </body>

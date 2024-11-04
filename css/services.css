@@ -93,6 +93,9 @@ body {
 .admin-login {
     display: flex;
     align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .admin-icon {
@@ -102,6 +105,7 @@ body {
     border: 1px solid #fff;
     padding: 2px;
     text-align: center;
+    margin-left: 5px;
 }
 
 .title-body {
@@ -144,6 +148,97 @@ footer {
     background-color: #1D222F;
     color: #fff;
     margin-top: 20px;
+}
+
+#comentarios {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#comentarios h2 {
+    font-size: 24px;
+    color: #2563eb;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form textarea {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: vertical;
+}
+
+form button {
+    align-self: center;
+    padding: 8px 16px;
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #113686;
+}
+
+.comentarios-lista {
+    margin-top: 10px;
+}
+
+.comentario {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.comentario p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+.comentario strong {
+    color: #2563eb;
+}
+
+.comentario small {
+    display: block;
+    font-size: 12px;
+    color: #6b7280;
+    margin-top: 5px;
+}
+
+.comentario form {
+    display: inline;
+    margin-top: 5px;
+}
+
+.comentario button {
+    background: none;
+    color: #2563eb;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px;
 }
 
 .hidden {
@@ -214,6 +309,18 @@ footer {
     .article, .article1 {
         padding: 15px;
         font-size: 14px;
+    }
+
+    #comentarios h2 {
+        font-size: 20px;
+    }
+
+    .comentario p {
+        font-size: 14px;
+    }
+
+    .comentario small {
+        font-size: 10px;
     }
 
     footer {

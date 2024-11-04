@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <a href="../index.html">
+        <a href="../index.php">
             <img src="../imgs/logo.png" alt="Logo" class="logo">
         </a>
         <h1>Desarrollo del Conocimiento Institucional (DDCI)</h1>
@@ -29,13 +29,12 @@
                 <input type="email" placeholder="Correo electrónico" required name="email">
                 <input type="password" placeholder="Contraseña" required name="contrasena">
                 <input type="password" placeholder="Confirmar contraseña" required name="confirmar_contrasena">
+                <input type="text" placeholder="Profesión" required name="profesion" max="100">
                 <button type="submit" class="button">Registrar</button>
                 <a href="iniciar.php" class="login-link">¿Ya tienes cuenta? Inicia sesión aquí</a>
             </form>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Desarrollo del Conocimiento Institucional (DDCI). Todos los derechos reservados.</p>
-    </footer>
+    <footer>&copy; 2024 Desarrollo del Conocimiento Institucional (DDCI). Todos los derechos reservados.</footer>
 </body>
 </html>
