@@ -44,7 +44,7 @@
             <?php
             if (!isset($_SESSION['usuario'])) {
                 echo "
-                <h1>¡Administrador! aún no has iniciado sesión.</h1>
+                <h1>Administrador, aún no has iniciado sesión.</h1>
                 <p>Por favor, toca <a href='iniciar.php'>aquí</a> para iniciar sesión.</p>
                 <footer>&copy; 2024 Desarrollo del Conocimiento Institucional (DDCI). Todos los derechos reservados.</footer>";
                 exit();
