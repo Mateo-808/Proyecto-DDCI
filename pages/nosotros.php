@@ -51,7 +51,7 @@ session_start();
         <h2 class="title-body">Sobre nosotros</h2>
 
         <section class="content">
-            <article class="article">
+            <article class="article article1">
                 <h3>Nuestra historia</h3>
                 <p>
                     El desarrollo de conocimiento institucional es un programa de estudio que se enfoca en brindar a los estudiantes de los grados noveno, décimo y undécimo, así como a los de la media técnica en auxiliar en desarrollo de software, las herramientas y habilidades necesarias para su formación académica y profesional.
@@ -61,7 +61,7 @@ session_start();
                 </p>
             </article>
 
-            <article class="article">
+            <article class="article article2">
                 <h3>Nuestro trabajo</h3>
                 <p>
                     En el caso particular de los grados noveno a undécimo y la media técnica en auxiliar en desarrollo de software, el plan de trabajo está enfocado en brindar a los estudiantes una formación sólida y actualizada en el área de tecnología y programación.
@@ -71,7 +71,7 @@ session_start();
                 </p>
             </article>
 
-            <article class="article">
+            <article class="article article3">
                 <h3>Misión</h3>
                 <p>
                     Brindar a los estudiantes de noveno, décimo y undécimo grado una visión clara y motivadora sobre el contenido académico y las oportunidades de formación técnica que les esperan en los grados superiores. Además, poder brindarles el enfoque de la media técnica en auxiliar en desarrollo de software.
@@ -81,26 +81,38 @@ session_start();
                 </p>
             </article>
 
-            <article class="article">
+            <article class="article article4">
                 <h3>Visión</h3>
                 <p>
                     Ser una plataforma líder que facilite el crecimiento y la innovación de las instituciones a través del acceso y la gestión efectiva del conocimiento. Aspiramos a que nuestro proyecto se convierta en un recurso esencial para que las instituciones educativas para que mejoren su capacidad de adaptarse a los cambios, promuevan la colaboración, y maximicen su impacto positivo en la sociedad mediante el uso del conocimiento compartido.
                 </p>
             </article>
 
-            <article class="article">
+            <article class="article article5">
                 <h3>Equipo</h3>
-                <h4>Isabella Argel Naranjo</h4>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro atque vitae, suscipit inventore vel velit veniam maxime asperiores, praesentium voluptatibus placeat! Vel officiis praesentium perferendis quos quam dicta hic ex!</p>
 
-                <h4>Maria Isabel Hernández Zapata</h4>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit labore, ratione illum obcaecati fuga sunt mollitia quae velit eveniet dolorum explicabo natus unde ipsam rem incidunt quibusdam, impedit voluptate dolore.</p>
+                <div class="article__container">
+                    <div class="integrante">
+                        <h4>Isabella Argel Naranjo</h4>
+                        <p>Diseñadora del sitio web</p>
+                    </div>
 
-                <h4>Mateo Restrepo Cartagena</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam dolores culpa veniam deserunt? Saepe quia quod quisquam. Minima corporis sed nesciunt cumque dicta sit laborum vero consequatur ab reprehenderit?</p>
 
-                <h4>Darlyn Daniela Seguro Quintero</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa est quasi totam aliquid necessitatibus, ab culpa eaque et cum! Ducimus adipisci praesentium ipsa tempore voluptatem a iusto totam aut voluptas!</p>
+                    <div class="integrante">
+                        <h4>Maria Isabel Hernández Zapata</h4>
+                        <p>Base de datos</p>
+                    </div>
+
+                    <div class="integrante">
+                        <h4>Mateo Restrepo Cartagena</h4>
+                        <p>Frontend y backend</p>
+                    </div>
+
+                    <div class="integrante integrante4">
+                        <h4>Darlyn Daniela Seguro Quintero</h4>
+                        <p>Diseñadora del sitio web</p>
+                    </div>
+                </div>
             </article>
         </section>
 
