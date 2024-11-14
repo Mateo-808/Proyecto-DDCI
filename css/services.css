@@ -120,7 +120,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     background: #fff;
     border-radius: 8px;
@@ -151,7 +151,6 @@ footer {
 }
 
 #comentarios {
-    margin-top: 20px;
     padding: 20px;
     background-color: #f9fafb;
     border-radius: 8px;
@@ -183,6 +182,7 @@ form textarea {
 }
 
 form button {
+    margin-top: 10px;
     align-self: center;
     padding: 8px 16px;
     background-color: #2563eb;
@@ -196,10 +196,6 @@ form button {
 
 form button:hover {
     background-color: #113686;
-}
-
-.comentarios-lista {
-    margin-top: 10px;
 }
 
 .comentario {
@@ -239,6 +235,10 @@ form button:hover {
     font-size: 14px;
     cursor: pointer;
     padding: 5px;
+}
+
+.comentario button:hover {
+    color: #fff;
 }
 
 .hidden {

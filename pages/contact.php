@@ -77,7 +77,7 @@ session_start();
 
                     <div class="form_input">
                         <label for="asunto">Asunto</label>
-                        <input type="text" id="asunto" name="asunto" placeholder="El asunto de tu mensaje" required>
+                        <input type="text" id="asunto" name="asunto" required>
                     </div>
 
                     <div class="form_input">

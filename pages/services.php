@@ -74,7 +74,7 @@ session_start();
         </section>
 
         <section id="comentarios" class="content">
-            <h2>Comentarios de Administradores</h2>
+            <h2>Comentarios</h2>
 
             <?php if (isset($_SESSION['id'])): ?>
                 <form action="../php/agregar_comentario.php" method="post">
