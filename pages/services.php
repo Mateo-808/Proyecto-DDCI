@@ -7,11 +7,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../imgs/logo_16x16.ico">
-    <link rel="icon" href="../imgs/logo_32x32.png">
-    <link rel="icon" href="../.imgs/logo_48x48.png">
-    <link rel="icon" href="../imgs/logo_96x96.png">
-    <link rel="icon" href="../imgs/logo_144x144.png">
+    <link rel="icon" href="../imgs/logo.png" type="imgs/png">
     <title>Servicios - DDCI</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/services.css">
